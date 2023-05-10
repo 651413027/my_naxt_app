@@ -12,6 +12,10 @@ const PromptSchema = new Schema({
   creator: {
     type: String,
     required: [true, 'creator is required.'],
+  },
+  Gmail:{
+    type: String,
+    required: [true, 'Gmail is required.'],
   }
 });
 

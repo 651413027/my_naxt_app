@@ -62,14 +62,11 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
 
         <label>
           <span className='font-satoshi font-semibold text-base text-gray-700'>
-            Gmail{" "}
-            <span className='font-normal'>
-              (#gmail.com)
-            </span>
+            Gmail
           </span>
           <input
-            value={post.tag}
-            onChange={(e) => setPost({ ...post, tag: e.target.value })}
+            value={post.Gmail}
+            onChange={(e) => setPost({ ...post, Gmail: e.target.value })}
             type='text'
             placeholder='#gmail'
             required

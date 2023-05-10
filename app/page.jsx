@@ -1,3 +1,4 @@
+import Feed from "@components/Feed";
 
 
 const Home = () => (
@@ -13,6 +14,7 @@ const Home = () => (
         <p className='desc text-center'>
             พร้อม AI คือแหล่งข้อมูลของการสร้าง พร้อมเพื่อใช้ใน AI
         </p>
+        <Feed/>
     </section>
 );
 

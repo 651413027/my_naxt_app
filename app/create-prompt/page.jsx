@@ -10,7 +10,7 @@ const CreatePrompt = () => {
 
 
     const [submitting, setIsSubmitting] = useState(false);
-    const [post, setPost] = useState({ prompt: "", tag: "", creator: "" });
+    const [post, setPost] = useState({ prompt: "", tag: "", creator: "",Gmail:""});
 
     const createPrompt = async (e) => {
         e.preventDefault();
@@ -23,6 +23,7 @@ const CreatePrompt = () => {
                     prompt: post.prompt,
                     tag: post.tag,
                     creator: post.creator,
+                    Gmail: post.Gmail,
                 }),
             });
 

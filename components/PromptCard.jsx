@@ -34,7 +34,7 @@ const PromptCard = ({ post, handleEdit, handleDelete, handleTagClick }) => {
             >
                 Tag:#{post.tag}
             </p>
-
+            <p className='my-4 font-satoshi text-sm text-gray-700'>Gmail:{post.Gmail}</p>
             {/* แสดงเฉพาะหน้า Profile */}
             {pathName === "/Profile" && (
                 <div className='mt-5 flex-center gap-4 border-t border-gray-100 pt-3'>
